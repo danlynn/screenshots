@@ -43,6 +43,9 @@ async function open_browser_tab() {
   return page;
 }
 
+/**
+ * @see https://github.com/GoogleChrome/puppeteer/blob/v1.20.0/docs/api.md
+ */
 (async () => {
   // If resuming from a failure or testing then set the startIdx and
   // endIdx as desired.  Otherwise, leave them both at 0 to process the

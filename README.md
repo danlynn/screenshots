@@ -47,6 +47,7 @@ This node app is a work-in-progress.  So... there are lots of places where confi
    The browser does not exit automatically after the script is ran because it is useful to keep it running during development.
    
    When the browser exits, it will delete the `.dev_tools_url` file that was created upon launch.
+   
 ---
 
 ### Customization
@@ -75,3 +76,9 @@ You man need to play with the html page size a bit to make the screenshots come 
 ```
 
    Note that the height has to be pretty tall in order to be taller than the max height of any page being rendered.
+
+---
+
+### Reference
+
+Puppeteer docs: https://github.com/GoogleChrome/puppeteer/blob/v1.20.0/docs/api.md
