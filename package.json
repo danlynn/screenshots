@@ -1,0 +1,17 @@
+{
+  "name": "screenshots",
+  "version": "1.0.0",
+  "description": "Use puppeteer and chrome to make screenshots of a list of website URLs.",
+  "main": "screenshots.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer-core": "^1.20.0"
+  },
+  "author": "dan@danlynn.org",
+  "license": "MIT"
+}

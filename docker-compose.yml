@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  node:
+    image: node:12.10.0
+    working_dir: /myapp
+    volumes:
+      - .:/myapp
+      - .bash_history:/root/.bash_history
+      - node_modules:/myapp/node_modules
+
+volumes:
+  node_modules:
